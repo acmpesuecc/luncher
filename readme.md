@@ -4,3 +4,4 @@ Luncher is an end-to-end canteen management solution, being built by Manasa, Nam
 
 ## Built By
 * [Anirudh Rowjee](https://www.github.com/anirudhRowjee)
+* [Noel Saju](http;//www.github.com/Noel-jediknight)
