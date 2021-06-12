@@ -2,6 +2,15 @@
 
 Luncher is an end-to-end canteen management solution, being built by Manasa, Namrata, Noel, Pranav and Anirudh. As of now, this document is a placeholder for the repository. Keep watching this space!
 
+## Application Structure
+```
+.
+├── backend
+├── docker-compose.yml
+├── frontend
+└── readme.md
+```
+
 ## Built By
 * [Anirudh Rowjee](https://www.github.com/anirudhRowjee)
 * [Noel Saju](https://www.github.com/Noel-jediknight)
