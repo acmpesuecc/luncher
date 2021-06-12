@@ -1,15 +1,28 @@
 # Luncher - AIEP 2.0
 
-Luncher is an end-to-end canteen management solution, being built by Manasa, Namrata, Noel, Pranav and Anirudh. As of now, this document is a placeholder for the repository. Keep watching this space!
+Luncher is an end-to-end canteen management solution, being built by Manasa, Namrata, Noel, Pranav and Anirudh.
 
 ## Application Structure
+
 ```
 .
 ├── backend
+│   ├── Dockerfile
+│   └── readme.md
 ├── docker-compose.yml
 ├── frontend
-└── readme.md
+│   ├── Dockerfile
+│   └── readme.md
+├── .gitignore
+├── readme.md
+└── .travis.yml
 ```
+
+## Stack
+* Django and Django REST Framework
+* React
+* Docker
+* Docker-Compose
 
 ## Built By
 * [Anirudh Rowjee](https://www.github.com/anirudhRowjee)
