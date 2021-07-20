@@ -18,6 +18,17 @@ Luncher is an end-to-end canteen management solution, being built by Manasa, Nam
 └── .travis.yml
 ```
 
+## Getting Started
+to get started, ensure
+1. You have WSL (Windows Subsystem for Linux) installed with Ubuntu 20.04
+2. Ensure you have docker, docker-compose and Git installed in WSL
+
+## Running The Backend
+* clone this repository
+* type `docker-compose up`
+
+
+
 ## Stack
 * Django and Django REST Framework
 * React
