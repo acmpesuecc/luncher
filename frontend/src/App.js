@@ -1,19 +1,19 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import Home from './pages/home'
-import Canteens from './pages/canteens'
-import MyOrders from './pages/myorders'
-import Cart from './pages/cart';
+import Home from './Pages/Home/home';
+import LoginForm from './Pages/Login/Login';
+import Canteens from './Pages/canteens'
+import MyOrders from './Pages/myorders'
+import Cart from './Pages/cart';
 
 
 function App() {
   return (
     <>
     <Router>
-      <Navbar/>
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/login' exact component={LoginForm} />
         <Route path='/canteens' component={Canteens} />
         <Route path='/myorders' component={MyOrders} />
         <Route path='/cart' component={Cart} />

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+body{
+  background: #FFFFFF;
+  font-family: "work sans";
+}
+
+html{
+  font-size: 100%;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm{
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 50%;
+  height: 60%;
+  padding: 50px 50px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.headerTitle{
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 2rem;
+  max-width: 100%; 
+}
+
+.row button{
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: #16A3EF;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+.row button:hover{
+  opacity: 0.8;
+}
+
+.button{
+  padding-bottom: 1.5rem;
+}
+
+.design-img{
+  display: inline;
+  float: right;
+}
