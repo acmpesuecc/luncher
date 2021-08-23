@@ -2,6 +2,9 @@ import React from 'react';
 import { useState } from 'react'
 import './Login.css'
 import Form from '../../components/Form/Form';
+import {Link} from 'react-router-dom'
+import * as AiIcons from 'react-icons/ai'
+import * as RiIcons from 'react-icons/ri'
 
 
 const LoginForm = () => {
@@ -28,18 +31,28 @@ const LoginForm = () => {
         <div className="login">
             <div className="loginForm">
                 <h2 className="heading">
-                    Create Account
+                    Login
                 </h2>
+                <hr/>
 
                 <form>
                     <Form lists = {lists}/>
                 </form>
-
+                <br/><br/>
+                <p className='forgot-password'>Forgot password?</p>
                 <div className="row button">
                     <button>
                         Login
                     </button>
                 </div>
+                <br/><br/>
+                <p>or login with,</p>
+                <br/>
+                <Link to="https://google.com" className="login-icons"><AiIcons.AiFillGoogleCircle/></Link>
+                <Link to="https://facebook.com" className="login-icons"><RiIcons.RiFacebookCircleFill/></Link>
+                <Link to="https://twitter.com" className="login-icons"><AiIcons.AiFillTwitterCircle/></Link>
+                <br/><br/>
+                <p className="last-line">Don't have an account? <Link to="/signup" className="signup-link">Sign Up.</Link></p>
             </div>
         </div>
     )

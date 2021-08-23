@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
   background: #FFFFFF;
-  font-family: "work sans";
+  font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -16,9 +16,9 @@ html{
 
 .loginForm{
   max-width: 500px;
-  min-width: 300px;
+  /* min-width: 300px; */
   max-height: 700px;
-  width: 50%;
+  width: 100%;
   height: 60%;
   padding: 50px 50px;
   background-color: #FFFFFF;
@@ -26,12 +26,12 @@ html{
   margin: 0 auto;
 }
 
-.headerTitle{
-  text-align: center;
-  font-family: 'open sans', sans-serif;
-  padding: 2rem 0;
+h2{
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 0.85rem;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .row{
@@ -43,13 +43,13 @@ html{
 }
 
 .row button{
-  border-radius: 5px;
+  border-radius: 12px;
   width: 100%;
-  height: 40px;
-  font-size: 1.3rem;
+  height: 65px;
+  font-size: 1.2rem;
   color: white;
-  font-weight: 700;
-  background: #16A3EF;
+  /* font-weight: 700; */
+  background: #2EC1AC;
   border: 0px;
   cursor: pointer;
   transition: opacity 0.25s ease-out;
@@ -63,7 +63,41 @@ html{
   padding-bottom: 1.5rem;
 }
 
-.design-img{
-  display: inline;
-  float: right;
+hr{
+  border-top: 5px solid #2EC1AC;
+  width: 30%;
+  /* padding-bottom: 2rem; */
+}
+
+form{
+  padding-top: 4rem;
+}
+
+
+p{
+  color: #999999;
+}
+
+.forgot-password{
+  color: #2EC1AC;
+  font-weight: bold;
+}
+
+.signup-link{
+  color: #2EC1AC;
+}
+
+.signup-link:visited{
+  color: #2EC1AC;
+}
+
+.login-icons{
+  color: #2EC1AC;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 3rem;
+}
+
+.last-line{
+  text-align: center;
 }
